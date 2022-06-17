@@ -1,0 +1,25 @@
+{
+  "name": "ioredis-example",
+  "version": "1.0.0",
+  "description": "Examples on how to connect to Render Redis with ioredis",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "main": "example-redis-url.js",
+  "scripts": {
+    "redis-url": "node example-redis-url.js",
+    "internal-detailed": "node example-internal-detailed.js",
+    "external-detailed": "node example-external-detailed.js"
+  },
+  "dependencies": {
+    "dotenv": "~16.0.1",
+    "ioredis": "~5.0.6"
+  },
+  "keywords": [
+    "redis",
+    "ioredis",
+    "render"
+  ],
+  "author": "render.com",
+  "license": "MIT"
+}
